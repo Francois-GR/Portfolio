@@ -29,6 +29,7 @@ body{
     top: 15%;
     left: 23%;
     border-radius: 20px;
+
 }
 
 .f-container-content{
@@ -70,6 +71,9 @@ body{
     top: 130%;
     left: 23%;
     border-radius: 20px;
+
+
+    
 }
 
 .s-container-content{
@@ -89,7 +93,7 @@ body{
   box-shadow: 0 3px 6px #0000004d;
   transition: box-shadow 0.3s ;
   
-  border: 2px solid lightgreen;
+  border: 2px solid #90ee90;
   
 
 }
@@ -114,7 +118,7 @@ body{
   animation-duration: 3s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid #000000;
   color: #AAABB8  ;
   transition-property: all;
   transition-duration: 2s;    
@@ -294,6 +298,27 @@ span{
 
 }
 
+@keyframes SlideShow {
+    0%{
+        background-image: url('../pictures/webpics/Visual\ Sorting.png');       
+    }
+    20%{
+       background-image: url('../pictures/webpics/Tic\ Tac\ Toe.png');
+    }
+    40%{
+     background-image: url('../pictures/webpics/Dancing\ lights.png');
+     
+    }
+    80%{
+        background-image: url('../pictures/webpics/Convertio.png');
+    }
+    100%{
+        background-image: url('../pictures/webpics/Visual\ Sorting.png');
+    }
+    
+    
+}
+
 img{
     width: 50%;
     height: 60%;
@@ -301,4 +326,23 @@ img{
 }
 h3{
     margin: 0;
+}
+
+
+
+
+#webSlide{
+  
+    margin-left: 15%;
+    margin-top: 1%;
+    height: 35vh;
+    width: 35vw;    
+    animation-name: SlideShow;
+    animation-duration: 50s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    background-size: contain;
+   
+   
+
 }

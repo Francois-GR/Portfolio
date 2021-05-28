@@ -9,9 +9,10 @@ if(clickable){
        document.body.appendChild(tempElement);
        tempElement.click();
        document.body.removeChild(tempElement);
-
     })
 }
 else{
-    console.log('null');
+    alert('error');
+    location.reload()
 }
+
