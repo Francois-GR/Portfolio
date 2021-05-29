@@ -306,8 +306,7 @@ span{
        background-image: url('../pictures/webpics/Tic\ Tac\ Toe.png');
     }
     40%{
-     background-image: url('../pictures/webpics/Dancing\ lights.png');
-     
+        background-image: url('../pictures/webpics/Convertio.png');
     }
     80%{
         background-image: url('../pictures/webpics/Convertio.png');
@@ -338,7 +337,7 @@ h3{
     height: 35vh;
     width: 35vw;    
     animation-name: SlideShow;
-    animation-duration: 50s;
+    animation-duration: 10s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     background-size: contain;
